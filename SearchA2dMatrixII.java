@@ -14,6 +14,22 @@ public class SearchA2dMatrixII {
         }
         System.out.println("key not found");
         return false;
+
+        //corner case
+        // int row = matrix.length - 1;
+        // int col = 0;
+        // while (row >= 0 && col < matrix[0].length) {
+        // if (matrix[row][col] == key) {
+        // System.out.println("found key at : (" + row + ", " + col + ")");
+        // return true;
+        // } else if (key < matrix[row][col]) {
+        // row--;
+        // } else {
+        // col++;
+        // }
+        // }
+        // System.out.println("key not found");
+        // return false;
     }
 
     public static void main(String[] args) {
